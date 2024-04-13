@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pageContainer {
+  width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.createGrid {
+  background: #0d95f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.createGrid:hover {
+  background: #0a73b8;
+}
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.flexContainer > .flex {
+  background: #ededed;
+  border: 1px dotted #b4b4b4;
+  transition: 0.1s all;
+}
+
+.flexContainer > .flex:hover {
+  background: #b5b5b5;
+}
